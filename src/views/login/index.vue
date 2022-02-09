@@ -51,7 +51,7 @@ export default {
     async onSubmit (values) {
       console.log(values);
       const res = await axios({
-        url: '//localhost:3000/login',
+        url: '//110.40.236.242:3000/login',
         method: 'post',
         data: values,
       })

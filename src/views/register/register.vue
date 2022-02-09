@@ -62,7 +62,7 @@ export default {
         return;
       }
       const res = await axios({
-        url: '//localhost:3000/register',
+        url: '//110.40.236.242:3000/register',
         method: 'post',
         data: values,
       })

@@ -38,7 +38,7 @@ export default {
     async checktoken() {
       const token = localStorage.getItem("token");
       let res = await axios({
-        url: "//localhost:3000/checktoken",
+        url: "//110.40.236.242:3000/checktoken",
         params: token
       });
 
